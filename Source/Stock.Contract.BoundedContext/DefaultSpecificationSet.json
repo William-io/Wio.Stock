@@ -1,0 +1,11 @@
+{
+  "AdvanceAmount": 38,
+  "MaximumStock": 40,
+  "MinimumStock": 2,
+  "StockOut": 5,
+  "StockEntry": 2,
+  "IsHospitalProduct": true,
+  "IsPerishable": false,
+  "DamagedProduct": 5,
+  "Price": 15
+}
