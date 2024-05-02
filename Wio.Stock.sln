@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContractBoundedContext", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stock.Contract.BoundedContext", "Source\Stock.Contract.BoundedContext\Stock.Contract.BoundedContext.csproj", "{B187B08E-7D87-4145-96DB-44130D9B2944}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTests", "Source\StockTests\StockTests.csproj", "{760EA285-AF97-43FA-A99C-E1D363489B54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B187B08E-7D87-4145-96DB-44130D9B2944}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B187B08E-7D87-4145-96DB-44130D9B2944}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B187B08E-7D87-4145-96DB-44130D9B2944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{760EA285-AF97-43FA-A99C-E1D363489B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760EA285-AF97-43FA-A99C-E1D363489B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760EA285-AF97-43FA-A99C-E1D363489B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760EA285-AF97-43FA-A99C-E1D363489B54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{FABA87B2-5D88-4193-A949-D3B7189EAB52} = {43D2050B-50FB-4FEB-9A85-9B12370DAF25}
 		{5D20BF5D-625C-4E8D-ADFF-C206152F6C97} = {40CAFA4D-D156-42A6-AC81-D57370123BA3}
 		{B187B08E-7D87-4145-96DB-44130D9B2944} = {C6E58261-7607-4D21-8C22-02236FF12AAB}
+		{760EA285-AF97-43FA-A99C-E1D363489B54} = {C6E58261-7607-4D21-8C22-02236FF12AAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB54ED30-E9A6-4031-97DE-7E2B75B88F22}

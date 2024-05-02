@@ -47,12 +47,12 @@ public class Supplier
 
     public override bool Equals(object? obj)
     {
-        return obj is Supplier author &&
-               Signed == author.Signed &&
-               SignedSupplierId.Equals(author.SignedSupplierId) &&
-               Email == author.Email &&
-               Phone == author.Phone &&
-               EqualityComparer<Person>.Default.Equals(Name, author.Name);
+        return obj is Supplier supplier &&
+               Signed == supplier.Signed &&
+               SignedSupplierId.Equals(supplier.SignedSupplierId) &&
+               Email == supplier.Email &&
+               Phone == supplier.Phone &&
+               EqualityComparer<Person>.Default.Equals(Name, supplier.Name);
     }
 
     public override int GetHashCode()
